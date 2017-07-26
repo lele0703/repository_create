@@ -1,0 +1,37 @@
+<html>
+<head>
+<!--网页的title名称-->
+<title>第一个网页</title>
+
+<!--css代码写在下方区域-->
+<style type="text/css">
+div{
+	width:200px;
+	height:200px;
+	background-color:pink;
+	text-align:center;
+	font-size:24px;
+	line-height:50px;
+	color:black;
+}
+</style>
+
+<!--javascript代码写在下方-->
+<script type="text/javascript">
+//javacsript的注释符是“//”,多行是“/**/”;html语言的注释符是“<!-- -->”
+window.onload=function(){
+	var oDiv = document.getElementById("test");
+	oDiv.onclick=function(){
+		alert("baidu.com");
+	}
+}
+</script>
+
+</head>
+
+<body>
+<div id="test">
+百度分享经验
+</div>
+</body>
+</html>
