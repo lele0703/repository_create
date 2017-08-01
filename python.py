@@ -9,7 +9,7 @@ def jb51():
 	conn.request(method="GET",url=url) 
 	response = conn.getresponse()
 	res= response.status
-	print res
+	print<res>
 	
 threads=[]
 for i in range(10):
