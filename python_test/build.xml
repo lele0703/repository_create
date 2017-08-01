@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <project name="py_ant" default="main" basedir=".">
+        <description>python compile!</description>
+        <target name="main">
+            <echo message="Java Version: ${ant.java.version}"/>
+            <exec executable="python" failonerror="true">
+            <arg value="python.py" />
+        </exec>
+        </target>
+    </project>
